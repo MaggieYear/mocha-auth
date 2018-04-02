@@ -30,5 +30,5 @@ Java-SE : 1.8 <br>
   * <module>mocha-controller-jsp</module>
   * <module>mocha-quartz</module>
   
-*模块间依赖关系
-![模块间依赖关系](https://www.processon.com/view/link/5ac25528e4b00dc8a0280462) 
+* 模块间依赖关系
+![模块间依赖关系](http://on-img.com/chart_image/5ac25527e4b04a5e96113e2a.png) 
