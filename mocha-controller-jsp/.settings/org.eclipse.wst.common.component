@@ -4,22 +4,22 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="mocha-quartz-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-quartz/mocha-quartz">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="mocha-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-service/mocha-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mocha-utils-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-utils/mocha-utils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mocha-model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-model/mocha-model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="mocha-dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-dao/mocha-dao">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="mocha-basic-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-basic/mocha-basic">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="mocha-model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-model/mocha-model">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="mocha-quartz-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-quartz/mocha-quartz">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="mocha-utils-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mocha-utils/mocha-utils">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/mocha-controller-jsp/target/classes"/>

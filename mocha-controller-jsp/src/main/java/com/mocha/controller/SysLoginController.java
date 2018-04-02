@@ -35,6 +35,12 @@ public class SysLoginController {
 	@Autowired
 	private Producer producer;
 	
+	/**
+	 * 获取验证码资源
+	 * @param response
+	 * @throws ServletException
+	 * @throws IOException
+	 */
 	@RequestMapping("captcha.jpg")
 	public void captcha(HttpServletResponse response)throws ServletException, IOException {
         response.setHeader("Cache-Control", "no-store, no-cache");

@@ -8,10 +8,12 @@
   <artifactId>mocha-quartz</artifactId>
   
     <dependencies>
+		
 		<dependency>
 			<groupId>com.mocha.auth</groupId>
-			<artifactId>mocha-utils</artifactId>
+			<artifactId>mocha-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
 	</dependencies>
 </project>

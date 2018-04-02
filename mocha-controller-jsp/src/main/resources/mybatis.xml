@@ -5,4 +5,22 @@
 	<settings>  
 		<setting name="mapUnderscoreToCamelCase" value="true" />  
     </settings>
+    
+     <typeAliases>         
+        <package name="com.mocha.entity"/>  
+    </typeAliases>  
+    <mappers>  
+        <mapper resource="com/mocha/mapper/ScheduleJobDao.xml" />   
+        <mapper resource="com/mocha/mapper/ScheduleJobLogDao.xml"/>   
+        <mapper resource="com/mocha/mapper/SysConfigDao.xml" />   
+        <mapper resource="com/mocha/mapper/SysGeneratorDao.xml" />   
+        <mapper resource="com/mocha/mapper/SysMenuDao.xml" />   
+        <mapper resource="com/mocha/mapper/SysRoleDao.xml" />   
+        <mapper resource="com/mocha/mapper/SysRoleMenuDao.xml" />   
+        <mapper resource="com/mocha/mapper/SysUserDao.xml" />    
+        <mapper resource="com/mocha/mapper/SysUserRoleDao.xml" />     
+    </mappers>  
+
 </configuration>
+
+

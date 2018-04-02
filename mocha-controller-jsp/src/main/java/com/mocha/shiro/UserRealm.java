@@ -31,6 +31,7 @@ import com.mocha.service.SysUserService;
  * 
  */
 public class UserRealm extends AuthorizingRealm {
+	
     @Autowired
     private SysUserService sysUserService;
     @Autowired

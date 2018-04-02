@@ -15,7 +15,7 @@
         <property name="dataSource" ref="dataSource" />
         <property name="quartzProperties">
             <props>
-                <prop key="org.quartz.scheduler.instanceName">CfScheduler</prop>
+                <prop key="org.quartz.scheduler.instanceName">MochaScheduler</prop>
                 <prop key="org.quartz.scheduler.instanceId">AUTO</prop>
                 <!-- 线程池配置 -->
                 <prop key="org.quartz.threadPool.class">org.quartz.simpl.SimpleThreadPool</prop>
@@ -34,7 +34,7 @@
             </props>
         </property>
 
-        <property name="schedulerName" value="CfScheduler" />
+        <property name="schedulerName" value="MochaScheduler" />
 
         <!--必须的，QuartzScheduler 延时启动，应用启动完后 QuartzScheduler 再启动 -->
         <property name="startupDelay" value="60" />
