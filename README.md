@@ -32,3 +32,9 @@ Java-SE : 1.8 <br>
   
 * 模块间依赖关系
 ![模块间依赖关系](http://on-img.com/chart_image/5ac25527e4b04a5e96113e2a.png) 
+
+
+三、Mybatis说明：
+--
+Mybatis使用了不实现dao接口的方式，采用mapper.xml对接口进行映射，配置spring-jdbc和mybatis.xml。
+
