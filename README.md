@@ -31,4 +31,4 @@ Java-SE : 1.8 <br>
   * <module>mocha-quartz</module>
   
 *模块间依赖关系
-![模块间依赖关系](http://www.baidu.com/img/bdlogo.gif) 
+![模块间依赖关系](http://on-img.com/chart_image/5ac25527e4b04a5e96113e2a.png) 
