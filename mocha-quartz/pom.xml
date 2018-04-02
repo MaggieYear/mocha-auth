@@ -10,9 +10,8 @@
     <dependencies>
 		<dependency>
 			<groupId>com.mocha.auth</groupId>
-			<artifactId>mocha-dao</artifactId>
+			<artifactId>mocha-utils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
